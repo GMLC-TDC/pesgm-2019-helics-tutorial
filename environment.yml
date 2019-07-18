@@ -7,3 +7,7 @@ dependencies:
   - matplotlib
   - pandas
   - helics
+  - pip
+  - pip:
+    - OpenDSSDirect.py
+    - PYPOWER
