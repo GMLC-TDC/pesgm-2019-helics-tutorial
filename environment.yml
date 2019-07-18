@@ -1,9 +1,8 @@
 name: helics-environment
 channels:
+  - conda-forge
   - gmlc-tdc
 dependencies:
-  - python
-  - helics
-  - pip
-  - pip:
-    - opendssdirect
+  - numpy
+  - matplotlib
+  - pandas
