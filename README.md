@@ -4,3 +4,18 @@
 Click the following link to get started.
 
 [https://beta.mybinder.org/v2/gh/gmlc-tdc/pesgm-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/Introduction.ipynb](https://beta.mybinder.org/v2/gh/gmlc-tdc/pesgm-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/Introduction.ipynb)
+
+## Installation
+
+- Install [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
+- Run the following
+
+```
+git clone https://github.com/GMLC-TDC/pesgm-2019-helics-tutorial
+conda install jupyter
+conda install nb_conda
+conda env create
+conda init bash # use your appropriate shell here
+conda activate helics-environment
+jupyter notebook
+```
