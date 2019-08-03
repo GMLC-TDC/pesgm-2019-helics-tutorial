@@ -4,6 +4,7 @@ channels:
   - gmlc-tdc
 dependencies:
   - numpy
+  - scipy
   - matplotlib
   - pandas
   - helics
