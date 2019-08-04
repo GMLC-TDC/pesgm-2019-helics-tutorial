@@ -5,7 +5,11 @@ Click the following link to get started.
 
 [https://beta.mybinder.org/v2/gh/gmlc-tdc/pesgm-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/Introduction.ipynb](https://beta.mybinder.org/v2/gh/gmlc-tdc/pesgm-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/Introduction.ipynb)
 
-## Installation
+This is a online remote demonstration. So there's no installation required.
+
+If you are interested in running this demonstration on your computer, you can follow the installation steps below.
+
+## Tutorial Installation (optional)
 
 - Install [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
 - Run the following
@@ -18,4 +22,18 @@ conda env create
 conda init bash # use your appropriate shell here
 conda activate helics-environment
 jupyter notebook
+```
+
+You can check if everything has been installed correctly by running the following to start Python:
+
+```
+conda activate helics-environment
+python
+```
+
+When Python has started you can run the following:
+
+```
+>>> import helics as h
+>>> h.helicsGetVersion()
 ```
