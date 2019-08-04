@@ -16,6 +16,7 @@ If you are interested in running this demonstration on your computer, you can fo
 
 ```
 git clone https://github.com/GMLC-TDC/pesgm-2019-helics-tutorial
+cd pesgm-2019-helics-tutorial
 conda install jupyter
 conda install nb_conda
 conda env create
