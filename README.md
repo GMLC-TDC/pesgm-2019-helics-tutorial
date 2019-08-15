@@ -7,6 +7,17 @@ Click the following link to get started.
 
 This is a online remote demonstration. So there's no installation required.
 
+The tutorial has 3 parts:
+
+1. An introduction to jupyter notebooks
+2. A simple value exchange that sends pi (i.e. 3.14...) back and forth between two federates. To run it start both the notebooks in that folder simultaneously and go back and forth.
+3. An example transmission-distribution exchange between PyPower and OpenDSS via OpenDSSdirect. Similar to piexchange, this requires starting two notebooks simultaneously that each setup a federate and then interact via HELICS.
+
+Notes:
+ * In these examples the HELICS broker is setup by one of the federates progamatticaly. It is also possible (and perhaps more common for large co-simulations) to start the broker directly using the executable provided by HELICS and then have federates attach. 
+ * Similarly these examples illustrate configuring the federates and their data exchange programatically. It is also possible to put this configuration information in a file and have HELICS read it in, which can make it easy to use the same federate code to be re-used as multiple different federates.  
+ * For larger co-simulations, the helics-cli helps manage the process of configuring and starting a large number of federates.
+
 If you are interested in running this demonstration on your computer, you can follow the installation steps below.
 
 ## Tutorial Installation (optional)
