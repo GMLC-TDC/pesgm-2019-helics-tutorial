@@ -14,16 +14,16 @@ The tutorial has 3 parts:
 3. An example transmission-distribution exchange between PyPower and OpenDSS via OpenDSSdirect. Similar to piexchange, this requires starting two notebooks simultaneously that each setup a federate and then interact via HELICS.
 
 Notes:
- * In these examples the HELICS broker is setup by one of the federates progamatticaly. It is also possible (and perhaps more common for large co-simulations) to start the broker directly using the executable provided by HELICS and then have federates attach. 
- * Similarly these examples illustrate configuring the federates and their data exchange programatically. It is also possible to put this configuration information in a file and have HELICS read it in, which can make it easy to use the same federate code to be re-used as multiple different federates.  
- * For larger co-simulations, the helics-cli helps manage the process of configuring and starting a large number of federates.
+*   In these examples the HELICS broker is setup by one of the federates progamatticaly. It is also possible (and perhaps more common for large co-simulations) to start the broker directly using the executable provided by HELICS and then have federates attach.
+*   Similarly these examples illustrate configuring the federates and their data exchange programatically. It is also possible to put this configuration information in a file and have HELICS read it in, which can make it easy to use the same federate code to be re-used as multiple different federates.  
+*   For larger co-simulations, the helics-cli helps manage the process of configuring and starting a large number of federates.
 
 If you are interested in running this demonstration on your computer, you can follow the installation steps below.
 
 ## Tutorial Installation (optional)
 
-- Install [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
-- Run the following
+-   Install [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
+-   Run the following
 
 ```
 git clone https://github.com/GMLC-TDC/pesgm-2019-helics-tutorial
@@ -49,3 +49,10 @@ When Python has started you can run the following:
 >>> import helics as h
 >>> h.helicsGetVersion()
 ```
+
+
+## Release
+pesgm-2019-helics-tutorial is distributed under the terms of the BSD-3 clause license. All new
+contributions must be made under this license. [LICENSE](LICENSE)
+
+SPDX-License-Identifier: BSD-3-Clause
