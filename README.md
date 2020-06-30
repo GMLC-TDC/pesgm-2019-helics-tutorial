@@ -14,7 +14,7 @@ The tutorial has 3 parts:
 3. An example transmission-distribution exchange between PyPower and OpenDSS via OpenDSSdirect. Similar to piexchange, this requires starting two notebooks simultaneously that each setup a federate and then interact via HELICS.
 
 Notes:
-*   In these examples the HELICS broker is setup by one of the federates progamatticaly. It is also possible (and perhaps more common for large co-simulations) to start the broker directly using the executable provided by HELICS and then have federates attach.
+*   In these examples the HELICS broker is setup by one of the federates programatically. It is also possible (and perhaps more common for large co-simulations) to start the broker directly using the executable provided by HELICS and then have federates attach.
 *   Similarly these examples illustrate configuring the federates and their data exchange programatically. It is also possible to put this configuration information in a file and have HELICS read it in, which can make it easy to use the same federate code to be re-used as multiple different federates.  
 *   For larger co-simulations, the helics-cli helps manage the process of configuring and starting a large number of federates.
 
