@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - gmlc-tdc
 dependencies:
+  - python=3.9
   - numpy
   - scipy
   - matplotlib
